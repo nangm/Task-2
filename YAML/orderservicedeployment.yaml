@@ -36,4 +36,5 @@ spec:
     app: order
   ports:
   - port: 80
-    targetPort: 31672
+    targetPort: 5000
+    nodePort: 31222
